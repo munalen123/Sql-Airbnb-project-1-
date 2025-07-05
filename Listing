@@ -1,0 +1,12 @@
+USE airbnb_nyc;
+SHOW TABLES;
+
+SELECT * FROM airbnb_nyc_clean
+LIMIT 10;
+
+DESCRIBE airbnb_nyc_clean;
+SELECT neighbourhood_group, AVG(price) AS avg_price
+FROM airbnb_nyc_clean
+GROUP BY neighbourhood_group
+ORDER BY avg_price DESC;
+
