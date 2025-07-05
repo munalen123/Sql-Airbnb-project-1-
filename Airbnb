@@ -1,0 +1,23 @@
+CREATE DATABASE airbnb_nyc;
+USE airbnb_nyc;
+
+USE airbnb_nyc;
+
+SELECT neighbourhood_group AS borough, neighbourhood
+FROM neighbourhoods
+LIMIT 53;
+
+SELECT neighbourhood_group, COUNT(*) AS num_neighbourhoods
+FROM neighbourhoods
+GROUP BY neighbourhood_group
+ORDER BY num_neighbourhoods DESC;
+
+SELECT neighbourhood
+FROM neighbourhoods
+WHERE neighbourhood_group = 'Brooklyn'
+ORDER BY neighbourhood;
+
+SELECT COUNT(*) AS total_neighbourhoods
+FROM neighbourhoods;
+
+
