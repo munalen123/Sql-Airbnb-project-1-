@@ -1,0 +1,28 @@
+SHOW TABLES;
+
+DESCRIBE reviews_sample;
+
+SELECT listing_id, COUNT(*) AS review_count
+FROM reviews_sample
+GROUP BY listing_id
+ORDER BY review_count DESC;
+
+SHOW COLUMNS FROM reviews_sample;
+
+
+SELECT listing_id, COUNT(*) AS review_count
+FROM reviews_sample
+GROUP BY listing_id
+ORDER BY review_count DESC;
+
+SELECT date, COUNT(*) AS total_reviews
+FROM reviews_sample
+GROUP BY date
+ORDER BY total_reviews DESC
+LIMIT 10;
+
+
+
+
+
+
