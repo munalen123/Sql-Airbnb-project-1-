@@ -2,7 +2,7 @@
 
 ### 📌 Project Overview
 
-This project explores the **New York City Airbnb dataset** with a focus on answering real business and analytical questions using **SQL** and Python. Through SQL queries and data visualization, we break down listing trends across neighborhoods, pricing differences by boroughs, and saturation levels in the Airbnb marketplace. The goal was to develop actionable insights for hosts, guests, and policy-makers, with a future extension toward building a machine learning-based price prediction tool.
+This project explores the **New York City Airbnb dataset** with a focus on answering real business and analytical questions using **SQL** and Python. Through SQL queries and data visualization, I break down listing trends across neighborhoods, pricing differences by boroughs, and saturation levels in the Airbnb marketplace. The goal was to develop actionable insights for hosts, guests, and policy-makers, with a future extension toward building a machine learning-based price prediction tool.
 
 ---
 
@@ -14,15 +14,8 @@ This project explores the **New York City Airbnb dataset** with a focus on answe
 
 ---
 
-### 💻 How We Imported the Data
-
-We used `pandas` to load CSVs into DataFrames and used **SQLite** (via Python's `sqlite3` library) to convert these into SQL tables for easier querying and exploration.
-
-This structure allowed us to:
-
-* Join and filter tables efficiently
-* Use SQL queries to directly answer analytical questions
-* Visualize results using Python libraries (e.g., Matplotlib, Seaborn)
+### 💻 Data Gathered from Inside Airbnb data( real life data ) 
+https://insideairbnb.com/get-the-data/
 
 ---
 
@@ -30,7 +23,7 @@ This structure allowed us to:
 
 * **SQL** (via SQLite)
 * **Python** (`pandas`, `matplotlib`, `seaborn`)
-* **Jupyter Notebook**
+* **Jupyter Notebook** (2nd portion of the project) 
 
 ---
 
@@ -51,8 +44,6 @@ This structure allowed us to:
   * Entire home/apt: 123 listings
   * Private room: 110 listings
   * Shared room: 2 listings
- Perfect! Here's a version of your **busiest months insight** styled exactly like your GitHub README format:
-
 ---
 
 📅 **Busiest Months for Airbnb Bookings in NYC (by Total Reviews):**
@@ -75,8 +66,6 @@ Based on review volume, which serves as a strong proxy for bookings:
 
 ---
 
-
-* 🧭 **Most saturated neighborhoods** and **highest priced areas** identified through SQL grouping and sorting.
 
 ---
 
