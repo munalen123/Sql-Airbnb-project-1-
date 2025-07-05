@@ -6,34 +6,6 @@ This project explores the **New York City Airbnb dataset** with a focus on answe
 
 ---
 
-### ❓ Key Business Questions Answered
-
-* **Neighborhoods & Boroughs**
-
-  * How many neighborhoods are in each borough?
-  * How many total neighborhoods does Airbnb cover in NYC?
-  * Which boroughs have the most neighborhoods?
-
-* **Listing Insights**
-
-  * Where are the most listings?
-  * What are the most common room types?
-  * What’s the average price per borough?
-  * Which neighborhoods are most saturated?
-  * Which neighborhoods have the highest average price per night?
-
-* **Reviews**
-
-  * Which listings have received the most reviews?
-  * What are the most common review dates?
-
-* **Availability & Bookings**
-
-  * What are the busiest months for Airbnb bookings in NYC?
-  * What percentage of listings offer availability for the next 30 days? *(partially explored)*
-
----
-
 ### 🗂️ Data Used
 
 * `listings.csv`: Contains listing-level data (host, price, neighborhood, room type, etc.)
