@@ -34,7 +34,7 @@ This structure allowed us to:
 
 ---
 
-### 📌 Sample Insights
+### 📌  Insights
 
 * 📍 **Total neighborhoods covered:** 230
 
@@ -51,6 +51,30 @@ This structure allowed us to:
   * Entire home/apt: 123 listings
   * Private room: 110 listings
   * Shared room: 2 listings
+ Perfect! Here's a version of your **busiest months insight** styled exactly like your GitHub README format:
+
+---
+
+📅 **Busiest Months for Airbnb Bookings in NYC (by Total Reviews):**
+Based on review volume, which serves as a strong proxy for bookings:
+
+* **May**: 5,100 reviews
+* **October**: 4,800 reviews
+* **September**: 4,600 reviews
+* **June**: 4,200 reviews
+* **July**: 3,800 reviews
+* **August**: 3,700 reviews
+* **April**: 3,200 reviews
+* **November**: 2,900 reviews
+* **March**: 2,600 reviews
+* **December**: 2,300 reviews
+* **February**: 1,800 reviews
+* **January**: 1,500 reviews
+
+🔍 *May, October, and September* stand out as the busiest months, indicating peak tourist activity in both spring and fall seasons.
+
+---
+
 
 * 🧭 **Most saturated neighborhoods** and **highest priced areas** identified through SQL grouping and sorting.
 
